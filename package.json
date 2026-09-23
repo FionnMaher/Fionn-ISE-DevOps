@@ -6,6 +6,7 @@
     "node": ">=22.12.0"
   },
   "scripts": {
+    "lint": "eslint .",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
@@ -19,6 +20,15 @@
     "sharp": "^0.35.0"
   },
   "allowScripts": {
-    "esbuild": true
+    "esbuild": true,
+    "eslint-plugin-astro@3.2.1": true,
+    "typescript-eslint@8.70.1": true,
+    "@typescript-eslint/parser@8.70.1": true
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.70.1",
+    "eslint": "^10.11.0",
+    "eslint-plugin-astro": "^3.2.1",
+    "typescript-eslint": "^8.70.1"
   }
 }
