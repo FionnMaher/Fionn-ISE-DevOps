@@ -7,6 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
+    "test:unit": "vitest",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
@@ -23,12 +24,14 @@
     "esbuild": true,
     "eslint-plugin-astro@3.2.1": true,
     "typescript-eslint@8.70.1": true,
-    "@typescript-eslint/parser@8.70.1": true
+    "@typescript-eslint/parser@8.70.1": true,
+    "vitest@5.0.1": true
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.70.1",
     "eslint": "^10.11.0",
     "eslint-plugin-astro": "^3.2.1",
-    "typescript-eslint": "^8.70.1"
+    "typescript-eslint": "^8.70.1",
+    "vitest": "^5.0.1"
   }
 }
